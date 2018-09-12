@@ -14,6 +14,7 @@
 		FA8785F2214361110039985B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8785F0214361110039985B /* LaunchScreen.storyboard */; };
 		FA8785FD214361110039985B /* JSONSerializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8785FC214361110039985B /* JSONSerializationTests.swift */; };
 		FA878608214361110039985B /* JSONSerializationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA878607214361110039985B /* JSONSerializationUITests.swift */; };
+		FA8786162146DC310039985B /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8786152146DC310039985B /* Photos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FA878603214361110039985B /* JSONSerializationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONSerializationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA878607214361110039985B /* JSONSerializationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSerializationUITests.swift; sourceTree = "<group>"; };
 		FA878609214361110039985B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8786152146DC310039985B /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FA8785E72143610F0039985B /* AppDelegate.swift */,
 				FA8785E92143610F0039985B /* ViewController.swift */,
+				FA8786152146DC310039985B /* Photos.swift */,
 				FA8785EB2143610F0039985B /* Main.storyboard */,
 				FA8785EE214361110039985B /* Assets.xcassets */,
 				FA8785F0214361110039985B /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8786162146DC310039985B /* Photos.swift in Sources */,
 				FA8785EA2143610F0039985B /* ViewController.swift in Sources */,
 				FA8785E82143610F0039985B /* AppDelegate.swift in Sources */,
 			);
